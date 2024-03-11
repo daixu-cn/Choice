@@ -1,7 +1,12 @@
 @import "@/assets/style/scss/reset";
 @import "@/assets/style/scss/element-plus.scss";
 
-body {
-  color: $font-color;
-  font-family: $font-family;
+html {
+  width: 100vw;
+
+  body {
+    color: $font-color;
+    font-family: $font-family;
+    font-size: 14px;
+  }
 }
