@@ -8,6 +8,7 @@ import progress from "vite-plugin-progress"
 import viteCompression from "vite-plugin-compression"
 
 export default defineConfig({
+  base: "/Choice/",
   plugins: [
     vue(),
     AutoImport({
