@@ -1,0 +1,23 @@
+@import "@/assets/styles/scss/reset";
+@import "@/assets/styles/fonts";
+@import "element-plus/theme-chalk/dark/css-vars.css";
+@import "@/assets/styles/scss/theme";
+
+html {
+  @include scrollbar;
+
+  body {
+    color: $font-color;
+    background: $bg-color;
+    font-family: $font-family;
+    font-size: $font-size;
+    transition:
+      color $duration,
+      background-color $duration;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
